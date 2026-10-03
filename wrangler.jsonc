@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wandering-unit-1943",
+  "main": "_worker.js",
+  "compatibility_date": "2026-10-03",
+  "assets": {
+    "directory": "."
+  }
+}
