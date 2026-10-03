@@ -3831,8 +3831,7 @@ document.getElementById("inquiryForm").addEventListener("submit", async function
 
     try {
 
-        const response = await fetch(
-            "https://gerardpesa.audyestillore.workers.dev/send-inquiry",
+        const response = await fetch("/send-inquiry",
             {
                 method: "POST",
                 body: formData
